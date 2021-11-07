@@ -33,7 +33,7 @@ public class NewFile {
             } catch (IOException a) {
                 System.out.println("Error: " + a);
 
-            }
+            //hallo world
         }
 
-    }}
+    }}}
