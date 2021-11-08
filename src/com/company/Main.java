@@ -28,5 +28,6 @@ public class Main {
         System.out.println(sport.yers = 2010);
         type_car sportcar = new type_car(195,"A4","Audi","cabriolet",2.5f);
         System.out.println(sportcar.type);
+
     }
 }
