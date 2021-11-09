@@ -5,6 +5,10 @@ public class car {
     protected String model;
     protected String marka;
     int yers;
+
+    public car(int height, float weight) {
+    }
+
     void KPP (String str){
         System.out.println(str);
     }
