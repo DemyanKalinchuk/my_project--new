@@ -30,9 +30,26 @@ public class Main {
         System.out.println(sportcar.type);
 
         havy_car track = new havy_car(350, "horton","Kontur", "have", 250f);
-        havy_car.hello = "have_track info";
+        havy_car.hello = "havy_track info";
         System.out.println(havy_car.hello);
         System.out.println(track.marka);
+
+        moto type_m = new moto();
+
+        moto.hello = "info about moto";
+        type_m.height = "up to 200";
+        type_m.weight1 = "up to 200";
+        type_m.weight2 = "up to 400";
+
+        System.out.println(moto.hello);
+        System.out.println(type_m.height = "height up to 200sm");
+        System.out.println(type_m.weight1 = "weight up to 200kg");
+        System.out.println(type_m.weight2 = "weight up to 400kg");
+        sport.KPP("KPP - mechanic");
+        sport.KPP("KPP - tiptronik(avtomat)");
+        type_m.type_of_motor("type_of_motor - V8");
+        type_m.type_of_motor("type_of_motor - V6");
+
 
 
 
