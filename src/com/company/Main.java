@@ -34,7 +34,7 @@ public class Main {
         System.out.println(havy_car.hello);
         System.out.println(track.marka);
 
-        moto type_m = new moto();
+        moto type_m = new moto("up to 200",150, "ot to 300");
 
         moto.hello = "info about moto";
         type_m.height = "up to 200";
@@ -49,6 +49,17 @@ public class Main {
         sport.KPP("KPP - tiptronik(avtomat)");
         type_m.type_of_motor("type_of_motor - V8");
         type_m.type_of_motor("type_of_motor - V6");
+        sport_Bike type_s = new sport_Bike(150, 340, 8000, "Kawasaki", "Ninja", "up to 200kg", "up to 300kg");
+        moto.hello = "info about sport_Bike";
+        System.out.println(moto.hello);
+        System.out.println(type_s.marka);
+        System.out.println(type_s.model);
+        System.out.println(type_s.max_speed);
+        System.out.println(type_s.max_oboroti);
+        sport.KPP("KPP - tiptronik(avtomat)");
+        type_m.type_of_motor("type_of_motor - V6");
+
+
 
 
 
