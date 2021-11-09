@@ -2,6 +2,7 @@ package com.company;
 
 public class type_car extends car {
 
+
     String type;
    protected int height ;
   protected   float weight;
@@ -11,8 +12,6 @@ public class type_car extends car {
         this.height = height;
         this.weight = weight;
     }
-
-
 
 
 }

@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
 
         car sport = new car("R8","audi");
         car.hello = "info car: -c";
@@ -29,5 +29,16 @@ public class Main {
         type_car sportcar = new type_car(195,"A4","Audi","cabriolet",2.5f);
         System.out.println(sportcar.type);
 
+        havy_car track = new havy_car(350, "horton","Kontur", "have", 250f);
+        havy_car.hello = "have_track info";
+        System.out.println(havy_car.hello);
+        System.out.println(track.marka);
+
+
+
+
     }
+
+
+
 }
